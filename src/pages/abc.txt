@@ -1,0 +1,21 @@
+<BrowserRouter>
+    <Switch>
+    <Route path="/" exact component={HomePage}></Route>
+    <Route path="/Profile" exact exactcomponent={Profile}></Route>
+    <Route path="/Projects" exact component={Cm}></Route>
+    <Route path="/Cm"  exact component={Cm}></Route>
+    <Route path="/Files"  exact component={Cm}></Route>
+    <Route></Route>
+    </Switch>
+    </BrowserRouter>
+
+
+
+    <div className="container3">
+        <Star style={{ fontSize: 175, margin:"auto",marginTop:"0px",marginBottom:"0px",color:"#E31837",}}></Star>
+        <h1 style={{margin:"auto" ,marginTop:"0px",marginBottom:"0px"}}>Professional Experience</h1>
+    </div>
+    <div className="container4">
+        <TrendingUp style={{ fontSize: 175, margin:"auto",marginTop:"0px",marginBottom:"0px",color:"#E31837",}}></TrendingUp>
+        <h1 style={{margin:"auto" ,marginTop:"0px",marginBottom:"0px"}}>Skills</h1>
+    </div>

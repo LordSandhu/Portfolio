@@ -1,0 +1,127 @@
+.container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centerP {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  width: auto;
+  height: 50px;
+}
+.container2 {
+  width: 100%;
+  background-color: transparent;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 0;
+}
+.york {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.york1 {
+  width: 35%;
+  height: 200px;
+  margin: auto;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px;
+}
+.york2 {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  background-color: transparent;
+}
+.container3 {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.container4 {
+  width: 130px;
+  background-color: transparent;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: white;
+}
+.pr1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: transparent;
+  height: 400px;
+}
+.pr2 {
+  width: 21%;
+  height: 305px;
+  background-color: transparent;
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+
+  border-radius: 25px;
+  margin: auto;
+  margin-right: 70px;
+}
+.pr3 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+.bio {
+  font-size: x-large;
+}
+.sk1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: transparent;
+  height: 450px;
+}
+.sk2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: transparent;
+  height: 110px;
+  margin: auto;
+}
+.sk3 {
+  width: 20%;
+  background-color: transparent;
+  height: 110px;
+  margin: auto;
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

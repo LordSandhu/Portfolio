@@ -1,0 +1,16 @@
+.backButton {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  text-align: center;
+  margin-bottom: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.backButton:hover {
+  background-color: white;
+}

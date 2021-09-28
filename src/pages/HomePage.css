@@ -1,0 +1,75 @@
+/**********************donut ring*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donut-ring {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  margin-bottom: auto;
+}
+
+.ring {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+.ring.red {
+  top: 0;
+  left: 0;
+  background-color: red;
+  border-radius: 100% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring.blue {
+  top: 0;
+  right: 0;
+  background-color: #2153cc;
+  border-radius: 0 100% 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring.orange {
+  bottom: 0;
+  left: 0;
+  background-color: #ffa500;
+  border-radius: 0 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring.green {
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  border-radius: 0 0 100% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cutout {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile {
+  margin-top: 10px;
+}
