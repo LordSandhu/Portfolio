@@ -56,10 +56,11 @@ function Cm()
 
         <div 
          className="box"
+         onClick={()=>{window.open(" https://github.com/LordSandhu")}} 
          style={{ 
              backgroundImage:`url(/images/Cm/gb.png)`,
              backgroundColor:"white"}}>  </div>
-        
+        https://github.com/LordSandhu
         <div 
          className="box"
          onClick={()=>{window.open("https://www.linkedin.com/in/shubhkarman-singh-sandhu-589b29208/")}} 
