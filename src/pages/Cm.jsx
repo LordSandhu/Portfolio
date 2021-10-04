@@ -40,35 +40,31 @@ function Cm()
          className="box" 
          onClick={copyMail}
          style={{ 
-             backgroundImage:`url(https://www.citypng.com/public/uploads/preview/-11597284657quwxwsmaor.png)`,
-             backgroundColor:"white"}}> </div>
+             backgroundImage:`url(/images/Cm/gm.png)`,
+             backgroundColor:"white",
+             backgroundSize:"175px"}}> </div>
         
         {email&&<p className="alert">Email copied!</p>}
-        <div 
-         className="box"
-         onClick={()=>{window.open("https://www.facebook.com/shubh.k.singh.5")}} 
-         style={{ 
-             backgroundImage:`url(http://seaiif.com/wp-content/uploads/sites/21/2016/05/Facebook-bw-1024x360.png)`,
-             backgroundColor:"white"}}> </div>
+        
 
         <div 
          className="box"
          onClick={()=>{window.open("https://www.instagram.com/sks_sandhu/")}} 
          style={{ 
-             backgroundImage:`url(https://i0.wp.com/www.dafontfree.io/wp-content/uploads/2020/12/instagram-new.png?resize=1100%2C750&ssl=1)`,
+             backgroundImage:`url(/images/Cm/ig.png)`,
              backgroundColor:"white"}}> </div>
 
         <div 
          className="box"
          style={{ 
-             backgroundImage:`url(https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png)`,
+             backgroundImage:`url(/images/Cm/gb.png)`,
              backgroundColor:"white"}}>  </div>
         
         <div 
          className="box"
          onClick={()=>{window.open("https://www.linkedin.com/in/shubhkarman-singh-sandhu-589b29208/")}} 
          style={{ 
-             backgroundImage:`url(https://blog.waalaxy.com/wp-content/uploads/2021/01/1497016117-300x74.png)`,
+             backgroundImage:`url(/images/Cm/ld.png)`,
              backgroundColor:"white"}}>  </div>
 
     
