@@ -10,6 +10,8 @@ function Project(){
     style={{ backgroundImage:`url(/images/wip.png)`}}>
         <div className="centerPro"><BackButton></BackButton></div>
         <div className="extra"></div>
+
+      
     </div>
     
    )

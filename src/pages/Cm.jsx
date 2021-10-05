@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import BackButton from '../Components/backButton';
 import { PhoneAndroid} from '@material-ui/icons';
 import './Cm.css'
-
 function Cm()
 {
     var [email,setEmail]=useState("");
@@ -22,7 +21,7 @@ function Cm()
     return(
         <div
         className="container"
-        style={{ backgroundImage:`url(/images/backG2.png)`}}>
+        style={{ backgroundImage:`url(/images/joinMe.png)`}}>
         <div className="center"><BackButton></BackButton></div>
 
         <div className="containerX">
@@ -72,7 +71,6 @@ function Cm()
         </div>
         
         
-
         
         </div>
     )

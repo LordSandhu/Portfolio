@@ -18,7 +18,7 @@
   margin-bottom: 5px;
   margin-top: 30px;
 }
-.extra {
+.extra1 {
   width: 38%;
   height: 800px;
   margin-top: 40px;
@@ -26,4 +26,30 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: x-large;
+}
+form {
+  width: 80%;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 70px;
+}
+input {
+  border-radius: 10px;
+  border-color: white;
+  width: 80%;
+  height: 20px;
+  font: 1em/1.25em Arial, Helvetica, sans-serif;
+}
+textarea {
+  border-radius: 10px;
+  width: 80%;
+  height: 200px;
+  border-color: white;
+  font: 1em/1.25em Arial, Helvetica, sans-serif;
 }

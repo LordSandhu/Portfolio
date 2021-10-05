@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './HomePage.css'
-import { AccountBox,Archive,Message, AssignmentTurnedIn} from '@material-ui/icons';
+import { AccountBox,Group,Message, AssignmentTurnedIn} from '@material-ui/icons';
 import { useHistory} from 'react-router-dom';
 
 
@@ -71,18 +71,18 @@ function HomePage(props) {
             <Message style={{ fontSize: 70, marginTop: 35,marginBottom:10 } } /></div>
 
         <div 
-         title="Files"
+         title="Social Network"
          className="ring green" 
          onClick={pushFiles}
          onMouseEnter={()=>{
-          setLink("/images/files.gif")
+          setLink("/images/Sn.gif")
          }}
            
          onMouseLeave={()=>{
           setLink("images/main.png")
          }}>
 
-            <Archive style={{ fontSize: 80, marginTop: 35, marginBottom:10} } /></div>
+            <Group style={{ fontSize: 70, marginTop: 35, marginBottom:10} } /></div>
 
         <div 
          className="cutout" 

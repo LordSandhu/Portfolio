@@ -11,6 +11,7 @@ function Profile()
     <div
     className="container"
     style={{ backgroundImage:`url(/images/mG.jpg)`}}>
+    
     <div className="centerP"><BackButton></BackButton></div>
     <div className="container2">
         <div className="container3">
@@ -159,7 +160,7 @@ function Profile()
 
         
     </div>
-    
+
     </div>
   )
 }

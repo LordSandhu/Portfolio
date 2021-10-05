@@ -5,7 +5,7 @@ import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Cm from './pages/Cm'
 import Profile from './pages/Profile';
 import Project from './pages/Project';
-import Files from './pages/Files';
+import Form from './pages/Form';
 
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
     <Route path="/" exact component={HomePage}></Route>
     <Route path="/Profile" exact exact component={Profile}></Route>
     <Route path="/Projects" exact component={Project}></Route>
-    <Route path="/Cm"  exact component={Cm}></Route>
-    <Route path="/Files"  exact component={Files}></Route>
+    <Route path="/Cm"  exact component={Form}></Route>
+    <Route path="/Files"  exact component={Cm}></Route>
     <Route></Route>
     </Switch>
     </BrowserRouter>
